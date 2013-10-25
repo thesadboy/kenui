@@ -12,7 +12,7 @@ var app = express();
 app.set('port', process.env.PORT || 3002);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
-app.use(express.favicon(__dirname + '/publi);
+app.use(express.favicon(__dirname + '/public');
 app.use(express.bodyParser());
 app.use(express.methodOverride());
 app.use(app.router);
