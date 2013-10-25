@@ -1,4 +1,3 @@
-
 /**
  * Module dependencies.
  */
@@ -13,8 +12,7 @@ var app = express();
 app.set('port', process.env.PORT || 3002);
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
-app.use(express.favicon(__dirname + '/public/favicon.ico'));
-app.use(express.logger('dev'));
+app.use(express.favicon(__dirname + '/publi);
 app.use(express.bodyParser());
 app.use(express.methodOverride());
 app.use(app.router);
